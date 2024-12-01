@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+
+    android:orientation="vertical"
+    android:background="#3E2264"> <!-- Mauve background -->
+
+    <!-- Centered horizontally at the top -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="410dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
+    <!-- Welcome TextView -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:maxWidth="400dp"
+        android:text="@string/Welcom"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"/>
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:maxWidth="400dp"
+        android:text="@string/wordMlg"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/button"
+        android:layout_width="318dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/button1"
+        android:letterSpacing="0.2"
+        android:backgroundTint="@color/grey"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">loginRegistration</string>
+    <string name="Welcom">Welcom!</string>
+    <string name="wordMlg">Welcome to MLG Games Store! We’re thrilled to have you join our world of epic gaming. Discover iconic titles, unique experiences, and start your ultimate gaming journey with us!</string>
+    <string name="button1">GET STARTED </string>
+    <string name="login_text"><u>Login</u></string>
+    <string name="emailtestxtview">Email:</string>
+    <string name="usernametestxtview">username:</string>
+    <string name="passwordtestxtview">Password:</string>
+    <string name="copasswordtestxtview">Comfirme Password:</string>
+</resources>
